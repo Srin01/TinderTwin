@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tinder</string>
+    <string name="click_a_button_begin_with">click_a_button_begin_with</string>
+    <string name="truth">truth</string>
+    <string name="dare">dare</string>
+    <string name="description">"Naam he kamlesh, baag ke aya me, desi gum pasad he muje",</string>
+    <string name="kamalesh">Kamalesh</string>
+    <string name="nope">Nope</string>
+    <string name="match">Match</string>
+    <string name="tinder">Tinder</string>
+    <string name="age">Age:</string>
+    <string name="sex">Sex:</string>
+    <string name="funfact">Funfact:</string>
+    <string name="matched">You have been matched with </string>
+    <string name="contact">Contact</string>
+</resources>

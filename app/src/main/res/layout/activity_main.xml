@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#f1f3de">
+
+    <TextView
+        android:id="@+id/Header_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#f1f3de"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ff0000"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+
+        android:text="@string/tinder"
+        />
+
+    <ImageView
+        android:id="@+id/imageView_profilePic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:background="#f1f3de"
+        android:textSize="22sp"
+
+        app:layout_constraintTop_toBottomOf="@id/Header_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+
+        android:src="@drawable/kamlesh"
+        />
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-thin"
+
+        app:layout_constraintTop_toBottomOf="@id/imageView_profilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+
+        android:text="@string/kamalesh"
+        />
+
+    <Button
+        android:id="@+id/dislikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#ff0000"
+        android:text="@string/nope"
+        android:textColor="@color/buttonTextColor"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView_profilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintVertical_bias="0.35"
+
+        />
+
+    <Button
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#00ff00"
+        android:text="@string/match"
+        android:textColor="@color/buttonTextColor"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView_profilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintVertical_bias="0.35"
+        />
+
+    <TextView
+        android:id="@+id/textView_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="22sp"
+        android:fontFamily="cursive"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView_profilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+
+        android:text="@string/description"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
